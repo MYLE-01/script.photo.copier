@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="script.photo.copier" name="Photo Copier" version="1.0.2" provider-name="StePhan McKillen">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.script" library="default.py">
+    <provides>image</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en_gb">Copy Photos</summary>
+    <description lang="en_gb">
+Will copy Photos BUT looks at date taken if it can't find taken date 
+it will use the last modified date
+it will create a year folder and then the month folder.	
+
+Destination - Year - ## ### - files [From Target]
+
+# ### = month number then the month name only did for sorting so it looks right
+
+so
+destination folder
+    2016 -script create it  
+        1 Jan -script create it
+            photo.jpg -script copy it form target
+        2 Feb -script create it
+        3 Mar -script create it
+...
+for the last 5 year its been doing its job last count over 38,000 photos from 2000
+which are sorted in the above format
+
+as the mark 1 verson was vbscript
+								
+KODI MUST BE ABLE TO WRITE TO THE DESTINATION FOLDER								
+</description>
+    <disclaimer lang="en_gb">Use at your Own risk has hot left me down yet.</disclaimer>
+    <language>en</language>
+    <platform>all</platform>
+    <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
+    <forum></forum>
+    <website></website>
+    <email>stephan@myle.co.nz</email>
+    <source></source>
+  </extension>
+</addon>

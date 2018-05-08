@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="yes"?>
+<strings>
+        <!-- Labels -->
+        <string id="30001"></string>
+        <!-- Settings labels -->
+        <string id="32100">Destination: where the photo end up</string>
+        <string id="32101">'Move' the files default is just copy them</string>
+        <string id="32102">Files Ext to copy NOTE the . and ,</string>
+        <string id="32103">Target: Folder where are the Photos</string>
+		<string id="32104">!!! DONE !!!! Total Files Found / Copied </string>
+		<string id="32105">Write data to Kodi logfile</string>
+		<string id="32106">Over Write File if in Destination</string>
+		<string id="32107">Into there Year folder|month folder</string>
+</strings>
