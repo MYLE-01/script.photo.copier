@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <settings>
 <setting id="CopyTo"  type="folder" source="folder" label="32100" default="special://profile/Photo/" />
-<setting id="FindExt" type="text" label="32102"  default=".JPG,.MPG,.MP4" />
+<setting id="FindExt" type="text" label="32102"  default=".JPG,.MPG,.MP4,.PNG" />
 <setting id="Debug" type="bool" label="32105" default="false"/>
 </settings>
